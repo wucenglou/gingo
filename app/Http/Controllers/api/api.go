@@ -6,12 +6,12 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-type Base struct{}
+type BaseApi struct{}
 
-func (b *Base) Login(c *gin.Context) {
+func (b *BaseApi) Aa(c *gin.Context) {
 
 	data := map[string]interface{}{
-		"lang": "GO语言 gogogo",
+		"lang": "GO语言 aaaaaa",
 		"tag":  "<br>",
 	}
 
