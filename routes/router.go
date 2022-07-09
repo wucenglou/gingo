@@ -24,7 +24,6 @@ func Routers() *gin.Engine {
 	// 简单的路由组: v1
 	v1 := r.Group("/v1")
 	{
-		// v1.GET("/a", &api.BaseApi.Aa)
 		v1.POST("/cc", api.Cc)
 		v1.GET("/bb", api.Bb)
 	}
